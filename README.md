@@ -6,7 +6,7 @@
 
 Install dependencies:
 ```
-npm i -D @lzbguts/eslint-config
+npm i -D eslint @lzbguts/eslint-config
 ```
 `.eslintrc.json`
 ```
