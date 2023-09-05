@@ -1,12 +1,12 @@
 {
   "name": "@lzbguts/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal ESLint config",
   "main": "next.js",
   "keywords": [],
   "author": "lzbguts",
   "repository": {
-    "url": "lzbguts/eslint-config"
+    "url": "git+https://github.com/lzbguts/eslint-config.git"
   },
   "license": "ISC",
   "peerDependencies": {
