@@ -1,13 +1,25 @@
-# lzbguts ESLint config
+# Setup
 
-## Setup
+## Visual Studio Code
+
+### Install ESLint extension (there's no need to install Prettier as it's already included in ESLint)
+
+Edit VS Code `settings.json`
+```
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+}
+```
 
 ### Install dependencies
 ```
 npm i -D eslint @lzbguts/eslint-config
 ```
 
-### Next.js
+## Next.js
 
 `.eslintrc.json`
 ```
@@ -19,7 +31,7 @@ npm i -D eslint @lzbguts/eslint-config
 }
 ```
 
-### React
+## React
 
 `.eslintrc.json`
 ```
@@ -30,7 +42,7 @@ npm i -D eslint @lzbguts/eslint-config
 }
 ```
 
-### Node
+## Node
 
 `.eslintrc.json`
 ```
