@@ -2,18 +2,41 @@
 
 ## Setup
 
+### Install dependencies
+```
+npm i -D eslint @lzbguts/eslint-config
+```
+
 ### Next.js
 
-Install dependencies:
-```
-npm i -D @lzbguts/eslint-config
-```
 `.eslintrc.json`
 ```
 {
   "extends": [
     "@lzbguts/eslint-config/next", 
     "next/core-web-vitals"
+  ]
+}
+```
+
+### React
+
+`.eslintrc.json`
+```
+{
+  "extends": [
+    "@lzbguts/eslint-config/react"
+  ]
+}
+```
+
+### Node
+
+`.eslintrc.json`
+```
+{
+  "extends": [
+    "@lzbguts/eslint-config/node"
   ]
 }
 ```
