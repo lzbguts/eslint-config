@@ -9,6 +9,13 @@ npm i -D eslint @lzbguts/eslint-config
 
 ### Next.js
 
+<<<<<<< HEAD
+=======
+Install dependencies:
+```
+npm i -D eslint @lzbguts/eslint-config
+```
+>>>>>>> 9297a5cd4d8499ad53436c64c19c7c1cac822a2e
 `.eslintrc.json`
 ```
 {
