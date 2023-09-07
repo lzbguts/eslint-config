@@ -16,7 +16,7 @@ Edit VS Code `settings.json`
 
 ### Install dependencies
 ```
-npm i -D eslint @lzbguts/eslint-config
+npm i -D @lzbguts/eslint-config eslint eslint-plugin-unused-imports
 ```
 
 ## Next.js
